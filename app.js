@@ -45,7 +45,7 @@ async function pushDB(req){
  * }
  */
 
-app.post("/contact", (req, res) => {
+app.post("/", (req, res) => {
   pushDB(req);
 });
 
